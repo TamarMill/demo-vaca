@@ -9,9 +9,9 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 
 export const Home=()=>{
    //const[value, setValue]=useState(50);
-}
-console.log(logo);
-function App(){
+
+
+
   const myStyle={
    backgroundColor: 'navy',
     
@@ -148,5 +148,5 @@ function App(){
  
  );
 }
-export default Home;
+
 

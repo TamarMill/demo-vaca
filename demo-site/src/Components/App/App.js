@@ -5,7 +5,7 @@ import  {Home } from "../home/home";
 import {Todo} from '../todo/todo';
 import { Header } from "../header/header";
 import React, {useContext} from "react";
-
+import {Chat} from '../Chat/chat';
 export const TodoContext = React.createContext();
 
 function App() {
@@ -18,9 +18,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/todo" element={<Todo />} /> 
+          <Route path="/chat" element={<Chat />} /> 
         </Routes>
       </BrowserRouter>  
       </TodoContext.Provider>
+     
+
+
     </div>
   );
 }

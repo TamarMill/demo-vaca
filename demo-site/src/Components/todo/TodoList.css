@@ -1,24 +1,27 @@
-.todoList {
-  background-color: rgb(195, 228, 241);
-}
-.todoList .header {
+body {
   font-size: 16px;
-  border: 2px solid rgb(231, 142, 142);
-}
-.todoList .header h1 {
-  color: rgb(231, 163, 74);
-  font-size: 50px;
-  margin-left: 50%;
+  background-color: #f1b389;
 }
 
-.todoList .header input {
+form {
+  font-size: 10px;
+  border: 2px solid rgb(142, 166, 231);
+  background-color: #e7d7b3;
+}
+header {
+  color: rgb(231, 92, 74);
+  font-size: 50px;
+}
+
+div .tasks {
   padding: 10px;
   margin-left: 50%;
-  font-size: 16px;
+  font-size: 300px;
   border: 2px solid rgb(231, 142, 142);
   width: 165px;
+  background-color: #e2a821;
 }
-.todoList .header button {
+button {
   padding: 10px;
   font-size: 16px;
   margin: 10px;
@@ -29,7 +32,7 @@
   border: 2px solid #f189db;
 }
 
-.todoList .List {
+.todo .List {
   width: 250px;
   color: rgb(226, 100, 27);
   font-size: 30px;
@@ -37,7 +40,7 @@
   margin-left: 20%;
   padding-bottom: 40px;
 }
-.todoList .List li {
+.todo .List li {
   color: rgb(8, 22, 104);
   padding: 20px;
   margin-bottom: 20px;

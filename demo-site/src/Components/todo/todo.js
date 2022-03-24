@@ -2,9 +2,9 @@ import React, { useState, useContext } from "react";
 
 import { TextField, Checkbox, Button, Title } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { AddToDriveOutlined } from "@mui/icons-material";
-import { TodoContext } from "../App/App";
 
+import { TodoContext } from "../App/App";
+import "./TodoList.css"; 
 
 export function Todo() {
     

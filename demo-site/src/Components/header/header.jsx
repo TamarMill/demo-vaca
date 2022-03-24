@@ -16,6 +16,8 @@ import { useNavigate } from "react-router-dom";
 const pages = [
   { title: "Home", path: "/" },
   { title: "TodoList", path: "/todo" },
+  { title: "Chat", path: "/chat" },
+
 ];
 
 export const Header = () => {

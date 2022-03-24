@@ -56,7 +56,7 @@ function addChat() {
 function addMessage() {
     const addMessages = {
        chatId: currentChat.id,
-       userName: user,
+       username: user,
        text: message,
 };
 setMessage("");

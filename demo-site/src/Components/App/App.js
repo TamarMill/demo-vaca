@@ -1,6 +1,6 @@
 
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import  {Home } from "../home/home";
 import {Todo} from '../todo/todo';
 import { Header } from "../header/header";
@@ -13,14 +13,14 @@ function App() {
   return (
     <div>
         <TodoContext.Provider value ={{todos,setTodos}}>
-      <BrowserRouter>
+      <HashRouter>
        <Header /> 
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/todo" element={<Todo />} /> 
           <Route path="/chat" element={<Chat />} /> 
         </Routes>
-      </BrowserRouter>  
+      </HashRouter>  
       </TodoContext.Provider>
      
 

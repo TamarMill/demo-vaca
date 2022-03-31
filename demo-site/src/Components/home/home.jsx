@@ -102,7 +102,7 @@ export const Home=()=>{
        Reading
         </Typography>
         <Typography variant="body2" >
-         College can keep me pretty busy at times but whenever I have free time I really love to read.  I specifically enjoy reading historical fiction and mysteries. 
+         Whenever I have free time I really love to read.  I specifically enjoy reading historical fiction and mysteries. 
         </Typography>
       </CardContent>
       </Card>
